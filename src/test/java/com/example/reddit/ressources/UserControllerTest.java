@@ -15,8 +15,6 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-import java.util.Optional;
-
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
@@ -26,7 +24,7 @@ public class UserControllerTest {
     private UserRepository userRepository;
 
     @Autowired
-    AuthController authController;
+    UserController authController;
 
     @Autowired
     private MockMvc mockMvc;
