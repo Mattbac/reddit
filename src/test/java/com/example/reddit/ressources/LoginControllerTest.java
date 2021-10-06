@@ -14,7 +14,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class loginControllerTest {
+public class LoginControllerTest {
 
     @Autowired
     AuthController authController;
